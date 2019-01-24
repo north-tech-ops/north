@@ -1,0 +1,36 @@
+.wrapper{
+  display:grid;
+  grid-template-columns: 100%;
+  }
+
+.wrapper > div {
+  background: #eee;
+  padding: 1em;
+}
+
+.main-nav ul {
+  list-style-type: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+
+.main-nav li {
+  display: inline-block;
+  padding: 10px;
+}
+
+.main-nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+}
+
+@media screen and (min-width: 600px) {
+  .wrapper{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-gap:.25em;
+    }
+}
