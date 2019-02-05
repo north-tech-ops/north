@@ -90,7 +90,7 @@ body {
           flex-flow: row nowrap;
 }
 .slider__contents {
-  font-size: 3rem;
+  font-size: 2rem;
   height: 100%;
   padding: 2rem;
   text-align: center;
