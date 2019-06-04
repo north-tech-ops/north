@@ -16,18 +16,10 @@ div {
 .circle {
   border: 5px solid #ff0000;
   background-color: #979696;
-  width: 100px;
-  height: 100px;
+  width: 200px;
+  height: 200px;
   border-radius: 1000px;
   margin: 0.5em;
-}
-
-.circle.supervisor {
-  background-image: url("http://placekitten.com/g/200/200");
-  background-size: cover;
-  background-repeat: none;
-  background-position: center center;
-  color: white;
 }
 
 .circle:hover {
