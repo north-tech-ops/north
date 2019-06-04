@@ -1,44 +1,48 @@
-div {
-  box-sizing: border-box;
+/* Three columns side by side */
+.column {
+  float: left;
+  width: 30%;
+  margin-bottom: 16px;
+  padding: 0 8px;
 }
 
+/* Display the columns below each other instead of side by side on small screens */
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+/* Add some shadows to create a card effect */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+/* Some left and right padding inside the container */
 .container {
-  display: flex;
-  justify-content: center;
-  align-content: flex-start;
-  -webkit-flex-flow: row wrap;
-  flex-flow: row wrap;
-
-  height: 500px;
-  border: 1px solid #000000;
+  padding: 0 16px;
 }
 
-.circle {
-  border: 5px solid #ff0000;
-  background-color: #979696;
-  width: 100px;
-  height: 100px;
-  border-radius: 1000px;
-  margin: 0.5em;
+/* Clear floats */
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
 }
 
-.circle.supervisor {
-  background-image: url("http://placekitten.com/g/200/200");
-  background-size: cover;
-  background-repeat: none;
-  background-position: center center;
-  color: white;
+.phone {
+  color: black;
 }
 
-.circle:hover {
-  background-color: #008000;
-  border-style: dotted;
+.ninePM {
+  background-color: yellow;
 }
 
-.aligner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  text-align: center;
+.eightPM {
+  background-color: orange;
+}
+
+.sixPM {
+  background-color: green;
 }
