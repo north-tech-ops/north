@@ -23,7 +23,7 @@ div {
 }
 
 .circle.jaster {
-  background-image: url('docs/images/jaster.jpg');
+  background-image: url('https://github.com/north-tech-ops/north/blob/master/docs/images/jaster.jpg');
   background-size: cover;
   background-repeat: none;
   background-position: center center;
