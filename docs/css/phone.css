@@ -1,48 +1,36 @@
-/* Three columns side by side */
-.column {
-  float: left;
-  width: 30%;
-  margin-bottom: 16px;
-  padding: 0 8px;
-}
-
-/* Display the columns below each other instead of side by side on small screens */
-@media screen and (max-width: 650px) {
-  .column {
-    width: 100%;
-    display: block;
+.wrapper{
+  display:grid;
+  grid-template-columns: 100%;
   }
+
+.wrapper > div {
+  background: #eee;
+  padding: 1em;
 }
 
-/* Add some shadows to create a card effect */
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+.main-nav ul {
+  list-style-type: none;
+  background-color: #444;
+  text-align: center;
+  padding: 0;
+  margin: 0;
 }
 
-/* Some left and right padding inside the container */
-.container {
-  padding: 0 16px;
+.main-nav li {
+  display: inline-block;
+  padding: 10px;
 }
 
-/* Clear floats */
-.container::after, .row::after {
-  content: "";
-  clear: both;
-  display: table;
+.main-nav a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
 }
 
-.phone {
-  color: black;
-}
-
-.ninePM {
-  background-color: yellow;
-}
-
-.eightPM {
-  background-color: orange;
-}
-
-.sixPM {
-  background-color: green;
+@media screen and (min-width: 600px) {
+  .wrapper{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    grid-gap:.25em;
+    }
 }
