@@ -23,7 +23,7 @@ div {
 }
 
 .circle.jaster {
-  background-image: url('http://placekitten.com/g/200/200');
+  background-image: url('../images/jaster.jpg');
   background-size: cover;
   background-repeat: none;
   background-position: center center;
