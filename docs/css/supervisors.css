@@ -54,6 +54,14 @@ div {
   color: white;
 }
 
+.circle.sturdivant {
+  background-image: url('../images/sturdivant.jpg');
+  background-size: cover;
+  background-repeat: none;
+  background-position: center center;
+  color: white;
+}
+
 .circle.darrin {
   background-image: url('../images/darrin.jpg');
   background-size: cover;
