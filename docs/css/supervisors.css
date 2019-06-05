@@ -30,6 +30,54 @@ div {
   color: white;
 }
 
+.circle.byrd {
+  background-image: url('../images/byrd.jpg');
+  background-size: cover;
+  background-repeat: none;
+  background-position: center center;
+  color: white;
+}
+
+.circle.peterson {
+  background-image: url('../images/peterson.jpg');
+  background-size: cover;
+  background-repeat: none;
+  background-position: center center;
+  color: white;
+}
+
+.circle.rector {
+  background-image: url('../images/rector.jpg');
+  background-size: cover;
+  background-repeat: none;
+  background-position: center center;
+  color: white;
+}
+
+.circle.darrin {
+  background-image: url('../images/darrin.jpg');
+  background-size: cover;
+  background-repeat: none;
+  background-position: center center;
+  color: white;
+}
+
+.circle.felton {
+  background-image: url('../images/felton.jpg');
+  background-size: cover;
+  background-repeat: none;
+  background-position: center center;
+  color: white;
+}
+
+.circle.shellie {
+  background-image: url('../images/shellie.jpg');
+  background-size: cover;
+  background-repeat: none;
+  background-position: center center;
+  color: white;
+}
+
 .circle:hover {
   background-color: #008000;
   border-style: dotted;
