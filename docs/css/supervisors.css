@@ -22,6 +22,14 @@ div {
   margin: 0.5em;
 }
 
+.circle.jaster {
+  background-image: url('images/jaster.jpg');
+  background-size: cover;
+  background-repeat: none;
+  background-position: center center;
+  color: white;
+}
+
 .circle:hover {
   background-color: #008000;
   border-style: dotted;
