@@ -27,6 +27,7 @@ div {
   background-size: cover;
   background-repeat: none;
   background-position: center center;
+  color: white;
 }
 
 .circle:hover {
