@@ -90,6 +90,14 @@ a {
   color: white;
 }
 
+.circle.heckelbeck {
+  background-image: url('../images/heckelbeck.jpg');
+  background-size: cover;
+  background-repeat: none;
+  background-position: center center;
+  color: white;
+}
+
 .circle:hover {
   background-color: #008000;
   border-style: dotted;
