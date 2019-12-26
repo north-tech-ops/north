@@ -34,8 +34,8 @@ a {
   color: white;
 }
 
-.circle.byrd {
-  background-image: url('../images/byrd.jpg');
+.circle.hale {
+  background-image: url('../images/zack_hale.jpg');
   background-size: cover;
   background-repeat: none;
   background-position: center center;
@@ -58,8 +58,8 @@ a {
   color: white;
 }
 
-.circle.sturdivant {
-  background-image: url('../images/sturdivant.jpg');
+.circle.baylis {
+  background-image: url('../images/henry_baylis.jpg');
   background-size: cover;
   background-repeat: none;
   background-position: center center;
