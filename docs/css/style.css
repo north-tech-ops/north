@@ -85,6 +85,7 @@ p {
 #showcase h1 {
   padding-top: 100px;
   padding-bottom: 0;
+  color: yellow;
 }
 
 #showcase .content-wrap,
